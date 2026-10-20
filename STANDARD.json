@@ -1,0 +1,33 @@
+{
+  "standard_id": "OS-3.6.2",
+  "short_name": "SINOSHOP-OS",
+  "full_name": "SINOSHOP 技术标准规范体系",
+  "version": "3.6.2",
+  "release_date": "2026-05-15",
+  "status": "release",
+  "category": "os",
+  "abstract": {
+    "zh": "超大型浮式模块化海洋栖息地系统的完整工程标准体系。",
+    "en": "Complete engineering standard system for ultra-large floating modular marine habitat systems."
+  },
+  "supersedes": "OS-3.6.1",
+  "repository": {
+    "github": "https://github.com/SINOSHOP-OPEN/SINOSHOP-Platform",
+    "gitee": "https://gitee.com/sinoshop/sinoshop-os"
+  },
+  "license": "Apache-2.0",
+  "citation": {
+    "text": "SINOSHOP-OS v3.6.2. (2026). SINOSHOP Technical Standards."
+  },
+  "keywords": [
+    "SFT",
+    "submerged-floating-tunnel",
+    "marine-city",
+    "ocean-engineering"
+  ],
+  "authors": [
+    {"name": "苏月明", "role": "core-team"},
+    {"name": "梁诚超", "role": "core-team"},
+    {"name": "梁振雄", "role": "root"}
+  ]
+}

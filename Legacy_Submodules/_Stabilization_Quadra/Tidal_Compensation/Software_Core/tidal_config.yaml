@@ -1,0 +1,24 @@
+﻿# SINOSHOP-OS 潮汐发电水舱配置参数
+# 技术团队：苏月明、梁诚超、梁振雄
+# 
+# 安全声明：此文件中的参数值已做脱敏处理，仅供仿真参考
+# 生产环境参数需通过 SINOSHOP-Core 技术团队授权获取
+
+tidal_cell:
+  # 负浮力控制（脱敏值：1.00；真实值需授权）
+  target_negative_buoyancy: 1.00
+  hysteresis_band: 0.005           # 滞后带（脱敏值）
+  height_tolerance: 0.05           # 高度容差 (m)
+  
+  # 文丘里参数（脱敏值）
+  venturi:
+    discharge_coefficient: 0.90    # 流量系数（脱敏值；真实值需授权）
+    turbine_efficiency: 0.75       # 涡轮效率（脱敏值）
+    
+  # 风暴模式
+  storm_mode_threshold: 8.0        # 高频冲击阈值 (kN)
+  
+  # 滤波器参数（脱敏值）
+  bandpass:
+    low_cutoff: 0.0001             # 潮汐低频截止 (Hz)
+    high_cutoff: 0.1               # 载荷高频截止 (Hz)
